@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝐂𝐎𝐌𝐏𝐑𝐄𝐒𝐈𝐄 𝐑𝐋𝐄-𝐄𝐀𝐒𝐘</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="glitter.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>𝐂𝐨𝐦𝐩𝐫𝐞𝐬𝐢𝐞 𝐬𝐢 𝐃𝐞𝐜𝐨𝐦𝐩𝐫𝐞𝐬𝐢𝐞 𝐑𝐋𝐄-𝐄𝐀𝐒𝐘</h1>
+        
+        <div class="input-group">
+            <label for="input-text">𝐓𝐞𝐱𝐭 𝐝𝐞 𝐩𝐫𝐨𝐜𝐞𝐬𝐚𝐭:</label>
+            <textarea id="input-text" rows="3">aaabbcc222ddd</textarea>
+        </div>
+        
+        <div class="buttons">
+            <button id="compress-btn">𝐂𝐨𝐦𝐩𝐫𝐢𝐦𝐚</button>
+            <button id="decompress-btn">𝐃𝐞𝐜𝐨𝐦𝐩𝐫𝐢𝐦𝐚</button>
+        </div>
+        
+        <div class="output-group">
+            <label for="output-text">𝐑𝐞𝐳𝐮𝐥𝐭𝐚𝐭:</label>
+            <textarea id="output-text" rows="3" readonly></textarea>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>𝐌𝐞𝐭𝐫𝐢𝐜𝐚</th>
+                    <th>𝐕𝐚𝐥𝐨𝐚𝐫𝐞</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>𝐋𝐮𝐧𝐠𝐢𝐦𝐞 𝐢𝐧𝐩𝐮𝐭</td>
+                    <td id="input-length">0</td>
+                </tr>
+                <tr>
+                    <td>𝐋𝐮𝐧𝐠𝐢𝐦𝐞 𝐨𝐮𝐭𝐩𝐮𝐭</td>
+                    <td id="output-length">0</td>
+                </tr>
+                <tr>
+                    <td>𝐑𝐚𝐩𝐨𝐫𝐭 𝐝𝐞 𝐜𝐨𝐦𝐩𝐫𝐞𝐬𝐢𝐞</td>
+                    <td id="compression-ratio">0.00</td>
+                </tr>
+                <tr>
+                    <td>𝐓𝐢𝐦𝐩 𝐝𝐞 𝐞𝐱𝐞𝐜𝐮𝐭𝐢𝐞</td>
+                    <td id="execution-time">0 𝐦𝐬</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div id="status-message" class="status-message"></div>
+    </div>
+    
+    <footer>
+        &copy; 𝐆𝐋𝐈𝐓𝐓𝐄𝐑 𝐆𝐄𝐄𝐊𝐒-𝐂𝐎𝐃𝐄𝐑𝐔𝐍 𝟐𝟎𝟐𝟓
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
